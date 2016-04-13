@@ -1,0 +1,3 @@
+frequency
+eachDayOfWeek: aCollectionOfString at: aTimeOrACollectionOfTime
+	aTimeOrACollectionOfTime updateTask: self withDayOfWeek: aCollectionOfString

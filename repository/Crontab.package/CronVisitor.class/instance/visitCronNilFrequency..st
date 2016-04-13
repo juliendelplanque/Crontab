@@ -1,0 +1,3 @@
+visiting
+visitCronNilFrequency: aCronNilFrequency
+	^ self subclassResponsibility

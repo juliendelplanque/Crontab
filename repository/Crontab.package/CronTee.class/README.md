@@ -1,0 +1,1 @@
+I am the class that output the result of the command to a file and copy it to the standard and error output.

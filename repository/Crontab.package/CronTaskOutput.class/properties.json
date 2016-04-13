@@ -1,0 +1,14 @@
+{
+	"category" : "Crontab-Output",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 4/13/2016 19:00",
+	"instvars" : [
+		"outputTo" ],
+	"name" : "CronTaskOutput",
+	"pools" : [
+		 ],
+	"super" : "CronNode",
+	"type" : "normal" }

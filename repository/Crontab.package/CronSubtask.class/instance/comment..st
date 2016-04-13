@@ -1,0 +1,3 @@
+accessing
+comment: aStringOrACronComment
+	self shouldNotImplement

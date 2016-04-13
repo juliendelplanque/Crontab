@@ -1,0 +1,14 @@
+{
+	"category" : "Crontab-Visitors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 4/10/2016 13:58",
+	"instvars" : [
+		 ],
+	"name" : "CronGenerator",
+	"pools" : [
+		 ],
+	"super" : "CronVisitor",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Crontab-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 4/10/2016 13:49",
+	"instvars" : [
+		 ],
+	"name" : "CronNode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

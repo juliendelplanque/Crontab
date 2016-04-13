@@ -1,0 +1,3 @@
+*Crontab
+isCronAlways
+	^ false

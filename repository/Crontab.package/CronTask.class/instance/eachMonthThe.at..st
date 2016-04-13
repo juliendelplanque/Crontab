@@ -1,0 +1,5 @@
+frequency
+eachMonthThe: anIntegerOrACollectionOfIntegerOrInterval at: aTimeOrACollectionOfTime
+	aTimeOrACollectionOfTime
+		updateMonthlyTask: self
+		withDays: anIntegerOrACollectionOfIntegerOrInterval

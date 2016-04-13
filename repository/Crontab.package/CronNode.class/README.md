@@ -1,0 +1,1 @@
+I am an abstract cron "node" I define the method #accept that must be implemented by my subclasses.

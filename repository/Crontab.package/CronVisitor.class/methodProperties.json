@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"visitCronComment:" : "JulienDelplanque 4/10/2016 13:54",
+		"visitCronFile:" : "JulienDelplanque 4/13/2016 18:25",
+		"visitCronFrequency:" : "JulienDelplanque 4/11/2016 08:33",
+		"visitCronLog:" : "JulienDelplanque 4/13/2016 18:38",
+		"visitCronMail:" : "JulienDelplanque 4/13/2016 18:51",
+		"visitCronMute:" : "JulienDelplanque 4/13/2016 18:33",
+		"visitCronNilComment:" : "JulienDelplanque 4/12/2016 21:22",
+		"visitCronNilFrequency:" : "JulienDelplanque 4/11/2016 08:58",
+		"visitCronSubtask:" : "JulienDelplanque 4/11/2016 08:51",
+		"visitCronTab:" : "JulienDelplanque 4/10/2016 13:54",
+		"visitCronTask:" : "JulienDelplanque 4/10/2016 13:54",
+		"visitCronTaskOutput:" : "JulienDelplanque 4/13/2016 19:28",
+		"visitCronTee:" : "JulienDelplanque 4/13/2016 19:43" } }

@@ -1,0 +1,1 @@
+I am an abstract class that manage output of commands.

@@ -1,0 +1,15 @@
+{
+	"category" : "Crontab-Output",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 4/13/2016 19:01",
+	"instvars" : [
+		"subject",
+		"mailAddress" ],
+	"name" : "CronMail",
+	"pools" : [
+		 ],
+	"super" : "CronTaskOutput",
+	"type" : "normal" }

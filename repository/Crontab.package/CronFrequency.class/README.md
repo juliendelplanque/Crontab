@@ -1,0 +1,1 @@
+I represent a frequency that is to say the begining of a crontab line (the one with stars and numbers).

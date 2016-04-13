@@ -1,0 +1,3 @@
+*Crontab
+ifStar: aBlock
+	^ self

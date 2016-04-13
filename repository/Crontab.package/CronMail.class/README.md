@@ -1,0 +1,1 @@
+I am the class that output the result of the command in a mail and send it.

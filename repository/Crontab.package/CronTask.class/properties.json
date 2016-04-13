@@ -1,0 +1,18 @@
+{
+	"category" : "Crontab-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 4/10/2016 13:47",
+	"instvars" : [
+		"comment",
+		"command",
+		"frequency",
+		"subtasks",
+		"output" ],
+	"name" : "CronTask",
+	"pools" : [
+		 ],
+	"super" : "CronNode",
+	"type" : "normal" }

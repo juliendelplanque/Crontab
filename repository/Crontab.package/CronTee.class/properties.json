@@ -1,0 +1,14 @@
+{
+	"category" : "Crontab-Output",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 4/13/2016 19:42",
+	"instvars" : [
+		 ],
+	"name" : "CronTee",
+	"pools" : [
+		 ],
+	"super" : "CronFile",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Crontab-Comment",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 4/12/2016 21:25",
+	"instvars" : [
+		 ],
+	"name" : "CronNilComment",
+	"pools" : [
+		 ],
+	"super" : "CronComment",
+	"type" : "normal" }
