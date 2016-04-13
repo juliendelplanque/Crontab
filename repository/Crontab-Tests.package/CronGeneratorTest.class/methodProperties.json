@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"cronTabForTests" : "JulienDelplanque 4/12/2016 08:07",
+		"cronTabGeneratedForTests" : "JulienDelplanque 4/12/2016 21:32",
+		"setUp" : "JulienDelplanque 4/11/2016 09:13",
+		"testVisitCronComment" : "JulienDelplanque 4/13/2016 19:19",
+		"testVisitCronFile" : "JulienDelplanque 4/13/2016 19:35",
+		"testVisitCronFrequency" : "JulienDelplanque 4/11/2016 09:28",
+		"testVisitCronLog" : "JulienDelplanque 4/13/2016 18:39",
+		"testVisitCronMail" : "JulienDelplanque 4/13/2016 18:54",
+		"testVisitCronMute" : "JulienDelplanque 4/13/2016 22:04",
+		"testVisitCronNilComment" : "JulienDelplanque 4/12/2016 21:23",
+		"testVisitCronNilFrequency" : "JulienDelplanque 4/11/2016 09:14",
+		"testVisitCronSubtask" : "JulienDelplanque 4/13/2016 22:01",
+		"testVisitCronTab" : "JulienDelplanque 4/12/2016 08:06",
+		"testVisitCronTask" : "JulienDelplanque 4/12/2016 21:37",
+		"testVisitCronTee" : "JulienDelplanque 4/13/2016 19:45" } }

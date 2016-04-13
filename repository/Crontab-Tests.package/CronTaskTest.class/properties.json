@@ -1,0 +1,14 @@
+{
+	"category" : "Crontab-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cronTask" ],
+	"name" : "CronTaskTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

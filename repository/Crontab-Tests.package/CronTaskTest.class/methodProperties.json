@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "JulienDelplanque 4/11/2016 07:55",
+		"testEachDayOfWeekAt" : "JulienDelplanque 4/11/2016 11:18",
+		"testEachMonthTheAt" : "JulienDelplanque 4/11/2016 11:48",
+		"testEveryDayAt" : "JulienDelplanque 4/11/2016 11:18",
+		"testEveryHour" : "JulienDelplanque 4/11/2016 11:18",
+		"testEveryHourAt" : "JulienDelplanque 4/11/2016 11:19",
+		"testHasSubtasks" : "JulienDelplanque 4/13/2016 22:07",
+		"testLog" : "JulienDelplanque 4/13/2016 22:08",
+		"testLogInFile" : "JulienDelplanque 4/13/2016 22:12",
+		"testMinutesHoursDaysMonthsDaysOfWeek" : "JulienDelplanque 4/13/2016 22:27",
+		"testMute" : "JulienDelplanque 4/13/2016 22:09",
+		"testSendMailToWithSubject" : "JulienDelplanque 4/13/2016 22:13",
+		"testTee" : "JulienDelplanque 4/13/2016 22:12",
+		"testTeeThenSendMailToWithSubject" : "JulienDelplanque 4/13/2016 22:13" } }
