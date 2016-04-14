@@ -1,3 +1,4 @@
 accessing
 comment: aStringOrACronComment
-	self shouldNotImplement
+	"Do nothing, the comment of the task will be used.
+	See #comment implementation."

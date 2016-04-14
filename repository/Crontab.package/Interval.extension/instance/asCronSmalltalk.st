@@ -1,0 +1,3 @@
+*Crontab
+asCronSmalltalk
+	^ self asString
