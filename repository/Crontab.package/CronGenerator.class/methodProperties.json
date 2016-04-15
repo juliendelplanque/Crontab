@@ -2,10 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "JulienDelplanque 4/15/2016 15:35",
-		"removeTrailingWhiteSpace" : "JulienDelplanque 4/15/2016 15:47",
-		"stream" : "JulienDelplanque 4/15/2016 15:42",
-		"stream:" : "JulienDelplanque 4/15/2016 16:39",
 		"underlineComment:" : "JulienDelplanque 4/15/2016 16:22",
 		"visitCronComment:" : "JulienDelplanque 4/15/2016 16:25",
 		"visitCronFile:" : "JulienDelplanque 4/15/2016 16:25",

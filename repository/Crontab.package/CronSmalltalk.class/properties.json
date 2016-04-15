@@ -10,5 +10,5 @@
 	"name" : "CronSmalltalk",
 	"pools" : [
 		 ],
-	"super" : "CronVisitor",
+	"super" : "CronStreamVisitor",
 	"type" : "normal" }

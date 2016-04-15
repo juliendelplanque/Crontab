@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JulienDelplanque 4/10/2016 13:58",
+	"commentStamp" : "JulienDelplanque 4/15/2016 18:54",
 	"instvars" : [
-		 ],
-	"name" : "CronGenerator",
+		"lineEnding",
+		"stream" ],
+	"name" : "CronStreamVisitor",
 	"pools" : [
 		 ],
-	"super" : "CronStreamVisitor",
+	"super" : "CronVisitor",
 	"type" : "normal" }
