@@ -5,8 +5,9 @@ testVisitCronTask
 					comment: 'Backup everything.';
 					command: '/usr/bin/backup';
 					eachDayOfWeek: #('sunday' 'monday' 'wednesday') at: {'11:00' asTime . '15:00' asTime}.
+	task accept: visitor.
 	self
-		assert: (task accept: visitor)
+		assert: visitor stream contents
 		equals: (('# Backup everything.
 # ------------------
 0 11 * * 0,1,3 /usr/bin/backup

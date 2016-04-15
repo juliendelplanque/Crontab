@@ -1,3 +1,4 @@
 tests-visiting
 testVisitCronNilFrequency
-	self assert: (CronNilFrequency new accept: visitor) equals: ''
+	CronNilFrequency new accept: visitor.
+	self assert: visitor stream contents equals: ''

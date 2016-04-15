@@ -1,3 +1,4 @@
 tests-visiting
 testVisitCronFile
-	self assert: ((CronFile filePath: '/var/log/example.log') accept: visitor) equals: ' > /var/log/example.log'
+	(CronFile filePath: '/var/log/example.log') accept: visitor.
+	self assert: visitor stream contents equals: ' > /var/log/example.log'

@@ -1,3 +1,4 @@
 tests-visiting
 testVisitCronTee
-	self assert: ((CronTee filePath: '/var/log/example.log') accept: visitor) equals: ' | tee /var/log/example.log'
+	(CronTee filePath: '/var/log/example.log') accept: visitor.
+	self assert: visitor stream contents trimRight equals: ' | tee /var/log/example.log'

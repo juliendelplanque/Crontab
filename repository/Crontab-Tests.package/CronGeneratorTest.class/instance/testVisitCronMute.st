@@ -1,3 +1,4 @@
 tests-visiting
 testVisitCronMute
-	self assert: (CronMute new accept: visitor) equals: '> /dev/null 2>&1'
+	CronMute new accept: visitor.
+	self assert: visitor stream contents equals: '> /dev/null 2>&1'

@@ -1,3 +1,4 @@
 tests-visiting
 testVisitCronNilComment
-	self assert: ((CronNilComment new) accept: visitor) equals: ''
+	CronNilComment new accept: visitor.
+	self assert: visitor stream contents equals: ''

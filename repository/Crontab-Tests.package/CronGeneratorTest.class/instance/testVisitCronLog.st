@@ -1,3 +1,4 @@
 tests-visiting
 testVisitCronLog
-	self assert: (CronLog new accept: visitor) equals: ''
+	CronLog new accept: visitor.
+	self assert: visitor stream contents equals: ''
