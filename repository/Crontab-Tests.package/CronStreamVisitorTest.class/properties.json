@@ -1,0 +1,14 @@
+{
+	"category" : "Crontab-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"visitor" ],
+	"name" : "CronStreamVisitorTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

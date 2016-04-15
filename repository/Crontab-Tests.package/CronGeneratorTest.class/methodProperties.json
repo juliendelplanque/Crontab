@@ -5,7 +5,6 @@
 		"cronTabForTests" : "JulienDelplanque 4/12/2016 08:07",
 		"cronTabGeneratedForTests" : "JulienDelplanque 4/12/2016 21:32",
 		"setUp" : "JulienDelplanque 4/11/2016 09:13",
-		"testRemoveTrailingWhiteSpace" : "JulienDelplanque 4/15/2016 16:41",
 		"testUnderlineComment" : "JulienDelplanque 4/15/2016 16:28",
 		"testVisitCronComment" : "JulienDelplanque 4/15/2016 16:21",
 		"testVisitCronFile" : "JulienDelplanque 4/15/2016 16:20",

@@ -1,4 +1,4 @@
-tests-helpers
+as yet unclassified
 testRemoveTrailingWhiteSpace
 	| stream |
 	stream := ReadWriteStream on: String new.
