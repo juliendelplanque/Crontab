@@ -1,0 +1,24 @@
+{
+	"category" : "PetitCrontab",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 4/15/2016 20:40",
+	"instvars" : [
+		"comment",
+		"line",
+		"lines",
+		"timeList",
+		"time",
+		"timeInterval",
+		"timeListRight",
+		"timeDefinition",
+		"command",
+		"timeAlways",
+		"emptyLine" ],
+	"name" : "PPCrontabGrammar",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

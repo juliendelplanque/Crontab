@@ -1,0 +1,3 @@
+accessing
+emptyLine
+	^ #newline asParser
