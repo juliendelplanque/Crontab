@@ -1,6 +1,10 @@
 visiting
 visitCronMail: aCronMail
-	^ (' | mail -s ''{1}'' {2} {3}'
-			format: { aCronMail subject .
-						aCronMail mailAddress .
-						self visitCronTaskOutput: aCronMail }) trimRight
+	stream
+		<< ' | mail -s ''';
+		<< aCronMail subject;
+		<< ''' ';
+		<< aCronMail mailAddress;
+		<< Character space.
+	self visitCronTaskOutput: aCronMail.
+	self removeTrailingWhiteSpace

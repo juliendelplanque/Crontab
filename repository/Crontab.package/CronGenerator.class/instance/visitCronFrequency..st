@@ -1,3 +1,4 @@
 visiting
 visitCronFrequency: aCronFrequency
-	^ aCronFrequency asCronString
+	stream
+		<< aCronFrequency asCronString

@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "JulienDelplanque 4/10/2016 13:58",
 	"instvars" : [
-		 ],
+		"stream" ],
 	"name" : "CronGenerator",
 	"pools" : [
 		 ],

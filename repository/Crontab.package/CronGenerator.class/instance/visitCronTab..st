@@ -1,7 +1,12 @@
 visiting
 visitCronTab: aCronTab
-	^ '# ' , aCronTab crontabName ,
-		self lineEnding ,
-		((aCronTab commentsAndTasks
-			collect: [ :aCommentOrATask | aCommentOrATask accept: self ])
-			joinUsing: self lineEnding)
+	stream
+		<< '# ';
+		<< aCronTab crontabName;
+		<< self lineEnding.
+	aCronTab commentsAndTasks
+		doWithIndex: [ :aCommentOrATask :i | 
+			aCommentOrATask accept: self.
+			i = aCronTab commentsAndTasks size
+				ifFalse: [ stream << self lineEnding ] ].
+	^ stream contents

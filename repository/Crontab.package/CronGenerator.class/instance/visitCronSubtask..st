@@ -1,6 +1,9 @@
 visiting
 visitCronSubtask: aCronSubtask
-	^ ('{1} {2} {3}'
-			format: { aCronSubtask frequency accept: self .
-						aCronSubtask command .
-						aCronSubtask output accept: self }) trimRight
+	aCronSubtask frequency accept: self.
+	stream
+		<< Character space;
+		<< aCronSubtask command;
+		<< Character space.
+	aCronSubtask output accept: self.
+	self removeTrailingWhiteSpace

@@ -1,5 +1,8 @@
 visiting
 visitCronTee: aCronTee
-	^ (' | tee {1} {2}'
-		format: { aCronTee filePath .
-						self visitCronTaskOutput: aCronTee }) trimRight
+	stream
+		<< ' | tee ';
+		<< (aCronTee filePath ifNil: [ self error: 'No filepath set.' ]);
+		<< ' '.
+	self visitCronTaskOutput: aCronTee.
+	self removeTrailingWhiteSpace

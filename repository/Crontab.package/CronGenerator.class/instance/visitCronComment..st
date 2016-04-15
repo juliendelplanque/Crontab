@@ -1,4 +1,6 @@
 visiting
 visitCronComment: aCronComment
-	^ '# ' , aCronComment content ,
-		self lineEnding
+	stream
+		<< '# ';
+		<< aCronComment content;
+		<< self lineEnding

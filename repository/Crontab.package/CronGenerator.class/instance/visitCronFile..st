@@ -1,3 +1,5 @@
 visiting
 visitCronFile: aCronFile
-	^ ' > ' , aCronFile filePath asFileReference fullName
+	stream
+		<< ' > ';
+		<< aCronFile filePath asFileReference fullName

@@ -1,4 +1,9 @@
 helpers
 underlineComment: anInteger
-	anInteger = 0 ifTrue: [ ^ '' ].
-	^ '# ' , (String newFrom: ((1 to: anInteger) collect: [ :i | $- ])) , self lineEnding
+	anInteger = 0 ifTrue: [ ^ self ].
+	stream
+		<< '# '.
+	1 to: anInteger do: [ :i |
+		stream << $- ].
+	stream
+		<< self lineEnding

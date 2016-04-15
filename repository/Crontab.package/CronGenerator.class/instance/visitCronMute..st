@@ -1,3 +1,4 @@
 visiting
 visitCronMute: aCronMute
-	^ '> /dev/null 2>&1'
+	stream
+		<< '> /dev/null 2>&1'
