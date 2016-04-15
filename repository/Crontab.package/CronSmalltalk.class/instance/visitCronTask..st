@@ -1,10 +1,29 @@
 visiting
 visitCronTask: aCronTask
-	^ 'newTask: [ :task |{1}		task{2}			{3};{4}			command: ''{5}'';{6}			{7} ]' format: {
-						self lineEnding .
-						self lineEnding .
-						aCronTask comment accept: self .
-						self lineEnding .
-						aCronTask command .
-						self lineEnding .
-						aCronTask frequency accept: self }
+	stream
+		<< 'newTask: [ :task |';
+		<< self lineEnding;
+		<< Character tab;
+		<< Character tab;
+		<< 'task';
+		<< self lineEnding;
+		<< Character tab;
+		<< Character tab;
+		<< Character tab.
+	aCronTask comment accept: self.
+	stream
+		<< $;;
+		<< self lineEnding;
+		<< Character tab;
+		<< Character tab;
+		<< Character tab;
+		<< 'command: ''';
+		<< aCronTask command;
+		<< ''';';
+		<< self lineEnding;
+		<< Character tab;
+		<< Character tab;
+		<< Character tab.
+	aCronTask frequency accept: self.
+	stream
+		<< ' ]'

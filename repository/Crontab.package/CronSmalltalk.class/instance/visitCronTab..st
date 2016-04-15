@@ -1,8 +1,19 @@
 visiting
 visitCronTab: aCronTab
-	^ ('(CronTab named: ''{1}''){2}'
-			format: { aCronTab crontabName . self lineEnding }) ,
-	((aCronTab commentsAndTasks collect: [ :commentOrTask |
-		String tab , (commentOrTask accept: self) ])
-			fold: [ :a :b | a , ';' , self lineEnding , b ]) ,
-	(';{1}	generate' format: { self lineEnding })
+	stream
+		<< '(CronTab named: ''';
+		<< aCronTab crontabName;
+		<< ''')';
+		<< self lineEnding.
+	aCronTab commentsAndTasks
+		doWithIndex: [ :commentOrTask :i |
+			stream << Character tab.
+			commentOrTask accept: self.
+			stream << $;.
+			i = aCronTab commentsAndTasks size
+				ifFalse: [ stream << self lineEnding ] ].
+	stream
+		<< self lineEnding;
+		<< Character tab;
+		<< 'generate'.
+	^ stream contents
