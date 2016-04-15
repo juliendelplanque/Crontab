@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 newTask: aBlockOrATask
 	aBlockOrATask addToCronTab: self

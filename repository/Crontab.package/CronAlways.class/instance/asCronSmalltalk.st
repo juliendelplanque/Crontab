@@ -1,3 +1,3 @@
-*Crontab
+converting
 asCronSmalltalk
 	^ '$*'

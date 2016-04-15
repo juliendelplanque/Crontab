@@ -1,3 +1,3 @@
-as yet unclassified
+visiting
 visitCronNilFrequency: aCronNilFrequency
 	self shouldNotImplement

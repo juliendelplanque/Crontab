@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 comment: aString
 	commentsAndTasks add: (CronComment content: aString)

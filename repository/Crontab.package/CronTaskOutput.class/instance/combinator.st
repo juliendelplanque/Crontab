@@ -1,3 +1,0 @@
-accessing
-combinator
-	^ self subclassResponsibility

@@ -1,4 +1,4 @@
-as yet unclassified
+visiting
 visitCronFrequency: aCronFrequency
 	^ 'minutes: {1} hours: {2} days: {3} months: {4} daysOfWeek: {5}'
 			format: ({ aCronFrequency minutes .

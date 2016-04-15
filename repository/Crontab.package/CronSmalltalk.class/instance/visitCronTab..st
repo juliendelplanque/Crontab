@@ -1,8 +1,8 @@
-as yet unclassified
+visiting
 visitCronTab: aCronTab
 	^ ('(CronTab named: ''{1}''){2}'
-			format: { aCronTab crontabName . Smalltalk os lineEnding }) ,
+			format: { aCronTab crontabName . self lineEnding }) ,
 	((aCronTab commentsAndTasks collect: [ :commentOrTask |
 		String tab , (commentOrTask accept: self) ])
-			fold: [ :a :b | a , ';' , Smalltalk os lineEnding , b ]) ,
-	(';{1}	generate' format: { Smalltalk os lineEnding })
+			fold: [ :a :b | a , ';' , self lineEnding , b ]) ,
+	(';{1}	generate' format: { self lineEnding })
