@@ -1,3 +1,3 @@
 generation
 generate
-	^ CronGenerator new visitCronTab: self
+	^ self accept: CronGenerator new
