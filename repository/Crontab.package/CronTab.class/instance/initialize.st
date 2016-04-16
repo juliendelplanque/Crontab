@@ -1,4 +1,6 @@
 initialization
 initialize
 	super initialize.
-	commentsAndTasks := OrderedCollection new
+	self
+		crontabName: ''; 
+		commentsAndTasks: OrderedCollection new.
