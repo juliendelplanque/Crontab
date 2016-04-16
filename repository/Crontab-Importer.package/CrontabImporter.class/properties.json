@@ -1,0 +1,14 @@
+{
+	"category" : "Crontab-Importer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 4/15/2016 20:46",
+	"instvars" : [
+		 ],
+	"name" : "CrontabImporter",
+	"pools" : [
+		 ],
+	"super" : "PPCrontabGrammar",
+	"type" : "normal" }

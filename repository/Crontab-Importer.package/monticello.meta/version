@@ -1,0 +1,1 @@
+(name 'Crontab-Importer-JulienDelplanque.1' message 'Added CrontabImporter that can build crontab objects from a crontab string.' id '84d43447-4ed2-4022-9d36-4c6bbd716525' date '16 April 2016' time '3:40:34.178893 pm' author 'JulienDelplanque' ancestors () stepChildren ())
