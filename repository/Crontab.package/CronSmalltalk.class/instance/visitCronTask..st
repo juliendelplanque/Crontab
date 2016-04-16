@@ -18,7 +18,7 @@ visitCronTask: aCronTask
 		<< Character tab;
 		<< Character tab;
 		<< 'command: ''';
-		<< aCronTask command;
+		<< ((aCronTask command splitOn: $') joinUsing: '''''');
 		<< ''';';
 		<< self lineEnding;
 		<< Character tab;

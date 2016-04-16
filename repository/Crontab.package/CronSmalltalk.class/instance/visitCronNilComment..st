@@ -1,3 +1,4 @@
 visiting
 visitCronNilComment: aCronNilComment
-	"Do nothing."
+	stream
+		<< 'comment: '''''
