@@ -1,0 +1,14 @@
+{
+	"category" : "Crontab-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 4/19/2016 12:27",
+	"instvars" : [
+		 ],
+	"name" : "CronUI",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
