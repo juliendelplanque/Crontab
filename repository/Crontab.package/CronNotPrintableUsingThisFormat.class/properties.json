@@ -1,0 +1,14 @@
+{
+	"category" : "Crontab-Errors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CronNotPrintableUsingThisFormat",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }
