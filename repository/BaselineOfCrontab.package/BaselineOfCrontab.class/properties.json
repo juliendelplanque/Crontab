@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfCrontab",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfCrontab",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
