@@ -1,0 +1,1 @@
+I am raise when a frenquency is not printable using a format method.
