@@ -27,5 +27,5 @@ testVisitCronTab
 		task
 			comment: ''Watch.'';
 			command: ''/usr/bin/watch'';
-			minutes: #(0 15 30 45) hours: $* days: $* months: $* daysOfWeek: $* ];
+			everyHourAt: #(0 15 30 45) ];
 	generate'
